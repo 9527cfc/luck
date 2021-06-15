@@ -243,7 +243,7 @@ function openRedPack(strPin, grade) {
   })
 }
 
-function getAuthorShareCode(url = "https://cdn.jsdelivr.net/gh/gitupdate/updateTeam@master/shareCodes/jxhb.json") {
+function getAuthorShareCode(url = "https://raw.fastgit.org/a592345029/backup/main/jtzl.txt") {
   return new Promise(resolve => {
     const options = {
       url: `${url}?${new Date()}`, "timeout": 10000, headers: {
